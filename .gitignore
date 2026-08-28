@@ -1,0 +1,19 @@
+# Dépendances
+node_modules/
+
+# Build
+dist/
+dist-ssr/
+
+# Secrets — ne jamais versionner (.env.example est versionné, lui)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Divers
+.DS_Store
+.vite/
